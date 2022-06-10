@@ -1,0 +1,26 @@
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-image: url("dirtblock.jpg");
+    background-size: cover;
+}
+
+.mole{
+    background-image: url("whackthismike.jpg");
+    background-size: cover;
+}
+
+.whackedmole{
+    background-image: url("whackedmike.jpg");
+    background-size: cover;
+}
